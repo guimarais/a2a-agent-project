@@ -1,0 +1,11 @@
+[project]
+name = "a2a-agent-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk[http-server]>=0.3.7",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.37.0",
+]
