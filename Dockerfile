@@ -13,6 +13,9 @@ COPY pyproject.toml uv.lock ./
 COPY src/ ./src/
 COPY __init__.py ./
 
+# Copy .env file
+COPY .env ./
+
 # Expose port if your server uses one (adjust as needed)
 EXPOSE 9999
 
